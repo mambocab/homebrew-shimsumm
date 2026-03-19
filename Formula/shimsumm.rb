@@ -1,7 +1,7 @@
 class Shimsumm < Formula
   desc "Transparent output filtering for LLM-managed shells"
-  homepage "https://github.com/OWNER/shimsumm"
-  head "https://github.com/OWNER/shimsumm.git", branch: "main"
+  homepage "https://github.com/mambocab/shimsumm"
+  head "https://github.com/mambocab/shimsumm.git", branch: "main"
   license "MIT"
 
   depends_on "go" => :build
