@@ -1,8 +1,8 @@
 class Shimsumm < Formula
   desc "Transparent output filtering for LLM-managed shells"
   homepage "https://github.com/mambocab/shimsumm"
-  url "https://github.com/mambocab/shimsumm/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "842190b27c9ef21c88de14ec696591717a8a764e52075d8516f8918dbc4e397d"
+  url "https://github.com/mambocab/shimsumm/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "22d2565884bb3ebc68811c4abe9efece2fd310b848dddea3875df97aa0dfbe8b"
   license "MIT"
   head "https://github.com/mambocab/shimsumm.git", branch: "main"
 
