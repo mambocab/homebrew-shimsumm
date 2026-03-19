@@ -8,6 +8,7 @@ class Shimsumm < Formula
 
   def install
     system "go", "build", *std_go_args(ldflags: "-s -w"), "./cmd/shimsumm"
+    generate_completions_from_executable(bin/"shimsumm", "completion")
   end
 
   test do
