@@ -1,10 +1,9 @@
-class Shimsumm < Formula
+class ShimsummAT030 < Formula
   desc "Transparent output filtering for LLM-managed shells"
   homepage "https://github.com/mambocab/shimsumm"
   url "https://github.com/mambocab/shimsumm/archive/refs/tags/v0.3.0.tar.gz"
   sha256 "de599e0ea507951f207cda2a1ebd69d6d71e5efbd6789325e6a1c374105e932d"
   license "MIT"
-  head "https://github.com/mambocab/shimsumm.git", branch: "main"
 
   depends_on "go" => :build
 
