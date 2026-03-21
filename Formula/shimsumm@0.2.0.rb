@@ -8,7 +8,7 @@ class ShimsummAT020 < Formula
   depends_on "go" => :build
 
   def install
-    system "go", "build", *std_go_args(ldflags: "-s -w"), "./cmd/shimsumm"
+    system "go", "build", *std_go_args(ldflags: "-s -w", output: bin/"shimsumm"), "./cmd/shimsumm"
     generate_completions_from_executable(bin/"shimsumm", "completion")
   end
 
